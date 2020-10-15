@@ -1,7 +1,5 @@
 package com.raywenderlich.android.creaturemon.model
 
-import android.graphics.drawable.Drawable
-
 class CreatureGenerator {
 
     fun generateCreature(creatureAttributes: CreatureAttributes, name: String = "", drawable: Int = 0): Creature{
